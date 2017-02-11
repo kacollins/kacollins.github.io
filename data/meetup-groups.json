@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Big Data and Data Science OKC",
+    "nameInMeetupURL": "Big-Data-in-Oklahoma-City",
+    "role": "Attendee"
+  },
+  {
+    "name": "Code for OKC",
+    "nameInMeetupURL": "Code-for-OKC",
+    "role": "Attendee",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/Code-for-OKC/Logo_400x400.jpeg?raw=true"
+  },
+  {
+    "name": "Code Norman",
+    "nameInMeetupURL": "Code-Norman",
+    "role": "Co-Organizer",
+	"image": "https://pbs.twimg.com/profile_images/713029726839791616/I_aJFOLs_400x400.jpg"
+  },
+  {
+    "name": "Data + Creativity OKC",
+    "nameInMeetupURL": "Data-Creativity-OKC",
+    "role": "Attendee"
+  },
+  {
+    "name": "Free Code Camp OKC",
+    "nameInMeetupURL": "FCC-OKC",
+    "role": "Active Member",
+	"image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-04/136470688097_fa25633d2275b24837a8_132.png"
+  },
+  {
+    "name": "Nerdy Girls codeClub",
+    "nameInMeetupURL": "NerdyGirlsOKC",
+    "role": "Co-Organizer",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/Nerdy-Girls-OKC/Logo_300x300.jpeg?raw=true"
+  },
+  {
+    "name": "OKC ESL",
+    "nameInMeetupURL": "OKC-ESL",
+    "role": "Organizer"
+  },
+  {
+    "name": "OKC FP",
+    "nameInMeetupURL": "OKC-FP",
+    "role": "Active Member",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-FP/logo_575x575.jpg?raw=true"
+  },
+  {
+    "name": "OKC.js",
+    "nameInMeetupURL": "OKC-JS",
+    "role": "Active Member",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-JS/Logo_750x580.png?raw=true"
+  },
+  {
+    "name": "OKC JUG",
+    "nameInMeetupURL": "okcjug",
+    "role": "Attendee",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-JUG/okcjug_270x270.png?raw=true"
+  },
+  {
+    "name": "OKC MySQL",
+    "nameInMeetupURL": "Oklahoma-City-MySQL-Meetup",
+    "role": "Attendee",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-MySql/Logo_180x96.jpeg?raw=true"
+  },
+  {
+    "name": "OKC Open Source Hardware",
+    "nameInMeetupURL": "OKC-OSH",
+    "role": "Co-Organizer",
+	"image": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/3/b/3/1/600_457515153.jpeg"
+  },
+  {
+    "name": "OKC Python",
+    "nameInMeetupURL": "Oklahoma-City-Python-Users-Group",
+    "role": "Attendee",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-Python/Logo_300x300.png?raw=true"
+  },
+  {
+    "name": "OKC Ruby",
+    "nameInMeetupURL": "OKC-Ruby",
+    "role": "Attendee",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-Ruby/Logo_259x224.png?raw=true"
+  },
+  {
+    "name": "OKC#",
+    "nameInMeetupURL": "OKC-Sharp",
+    "role": "Event Organizer",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-Sharp/Logo_528x298.jpeg?raw=true"
+  },
+  {
+    "name": "OKC Smart Home Automation",
+    "nameInMeetupURL": "OKC-Smart-Home-Automation-Meetup",
+    "role": "Active Member"
+  },
+  {
+    "name": "OKC SQL",
+    "nameInMeetupURL": "OKCSQL",
+    "role": "Active Member",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-SQL/Logo_270x270.png?raw=true"
+  },
+  {
+    "name": "Refresh OKC",
+    "nameInMeetupURL": "Refresh-OKC",
+    "role": "Active Member",
+	"image": "https://github.com/techlahoma/user-groups/blob/master/Refresh-OKC/Meetup-logo_180x174.jpeg?raw=true"
+  }
+]

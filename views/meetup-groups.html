@@ -1,0 +1,17 @@
+<div class="container" ng-controller="meetupGroupsCtrl">
+    <div class="row">
+        <div class="card-columns">
+            <a ng-href="https://www.meetup.com/{{group.nameInMeetupURL}}" class="text-center"
+               ng-repeat="group in meetupGroups">
+                <div class="card card-inverse" ng-class-even="'card-warning'" ng-class-odd="'card-danger'">
+                    <img class="card-img-top" ng-src="{{group.image}}" alt="{{course.title}}"
+                         style="max-width: 100px;">
+                    <div class="card-block">
+                        <p class="card-title">{{group.name}}</p>
+                        <p class="card-title">{{group.role}}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
