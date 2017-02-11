@@ -1,6 +1,12 @@
 var app = angular.module("Portfolio", ["ngResource", "ngRoute"]);
 
-app.controller("inProgressCtrl", function ($scope, $resource) {
+app.controller("mainCtrl", function ($scope, $resource)
+{
+    console.log("mainCtrl");
+});
+
+app.controller("inProgressCtrl", function ($scope, $resource)
+{
     var url = "https://www.codeschool.com/users/kacollins.json";
 
     var CodeSchoolAPI = $resource(url,
@@ -24,7 +30,8 @@ app.controller("inProgressCtrl", function ($scope, $resource) {
     });
 });
 
-app.controller("completedCtrl", function ($scope, $resource) {
+app.controller("completedCtrl", function ($scope, $resource)
+{
     var url = "https://www.codeschool.com/users/kacollins.json";
 
     var CodeSchoolAPI = $resource(url,
