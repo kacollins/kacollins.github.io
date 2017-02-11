@@ -3,9 +3,9 @@
         <div class="card-columns">
             <a ng-href="https://www.meetup.com/{{group.nameInMeetupURL}}" class="text-center"
                ng-repeat="group in meetupGroups">
-                <div class="card card-inverse" ng-class-even="'card-warning'" ng-class-odd="'card-danger'">
+                <div class="card" ng-class="{'card-outline-success': group.role == 'Organizer', 'card-outline-primary': group.role == 'Co-Organizer', 'card-outline-info': group.role == 'Event Organizer', 'card-outline-warning': group.role == 'Active Member', 'card-outline-secondary': group.role == 'Attendee'}">
                     <img class="card-img-top" ng-src="{{group.image}}" alt="{{course.title}}"
-                         style="max-width: 100px;">
+                         style="max-width: 100px; margin-top: 10px">
                     <div class="card-block">
                         <p class="card-title">{{group.name}}</p>
                         <p class="card-title">{{group.role}}</p>
