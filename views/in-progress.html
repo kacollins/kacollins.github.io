@@ -1,0 +1,21 @@
+<div class="container" ng-controller="inProgressCtrl">
+    <div class="row">
+        <h1>Levels Completed on Courses In Progress</h1>
+    </div>
+    <div class="row">
+        <div class="card-columns">
+            <a ng-href="{{badge.course_url}}" class="text-center"
+               ng-repeat="badge in levelsCompleted">
+                <div class="card card-inverse" ng-class-even="'card-info'" ng-class-odd="'card-primary'">
+                    <img class="card-img-top hidden-xs-down" ng-src="{{badge.badge}}" alt="{{course.title}}"
+                         style="max-width: 250px;">
+                    <img class="card-img-top hidden-sm-up" ng-src="{{badge.badge}}" alt="{{course.title}}"
+                         style="max-width: 100px; margin:0 auto;">
+                    <div class="card-block">
+                        <p class="card-title">{{badge.name}}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
