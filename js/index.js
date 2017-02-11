@@ -41,6 +41,27 @@ app.controller("inProgressCtrl", function ($scope, $resource)
                 return badge.name.indexOf("Level") >= 0
                     && coursesInProgress.indexOf(badge.course_url) >= 0;
             });
+
+        var coursesInProgressWithLevelsCompleted = data.courses.in_progress;
+
+        coursesInProgressWithLevelsCompleted.forEach(function (course)
+        {
+            course.levelsCompleted = data.badges
+                .filter(function (badge)
+                {
+                    return badge.name.indexOf("Level") >= 0
+                        && badge.course_url == course.url;
+                });
+
+            course.levelsCompleted.forEach(function(badge){
+                badge.level = badge.name.replace(" on " + course.title, "");
+            });
+        });
+
+        $scope.coursesInProgressWithLevelsCompleted = coursesInProgressWithLevelsCompleted.filter(function (course)
+        {
+            return course.levelsCompleted.length > 0;
+        });
     });
 });
 
