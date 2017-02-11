@@ -1,11 +1,32 @@
 <div class="container" ng-controller="meetupGroupsCtrl">
     <div class="row">
-        <div class="card-columns">
+        <h1>Volunteer</h1>
+    </div>
+    <div class="row" style="margin: 15px">
+        <div class="card-group">
             <a ng-href="https://www.meetup.com/{{group.nameInMeetupURL}}" class="text-center"
-               ng-repeat="group in meetupGroups">
-                <div class="card" ng-class="{'card-outline-success': group.role == 'Organizer', 'card-outline-primary': group.role == 'Co-Organizer', 'card-outline-info': group.role == 'Event Organizer', 'card-outline-warning': group.role == 'Active Member', 'card-outline-secondary': group.role == 'Attendee'}">
-                    <img class="card-img-top" ng-src="{{group.image}}" alt="{{course.title}}"
-                         style="max-width: 100px; margin-top: 10px">
+               ng-repeat="group in organizerGroups | orderBy: 'organizerSortOrder'">
+                <div class="card list-group-item list-group-item-action"
+                     ng-class="{'list-group-item-success': group.role == 'Organizer', 'list-group-item-info': group.role == 'Co-Organizer'}">
+                    <img class="card-img-top" ng-src="{{group.image}}" style="height: 100px; margin: 5px">
+                    <div class="card-block">
+                        <p class="card-title">{{group.name}}</p>
+                        <p class="card-title">{{group.role}}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <h1>Member</h1>
+    </div>
+    <div class="row" style="margin: 15px">
+        <div class="card-group">
+            <a ng-href="https://www.meetup.com/{{group.nameInMeetupURL}}" class="text-center"
+               ng-repeat="group in attendeeGroups">
+                <div class="card list-group-item list-group-item-action"
+                     ng-class="{'list-group-item-warning': group.role == 'Active Member'}">
+                    <img class="card-img-top" ng-src="{{group.image}}" style="height: 100px; margin: 5px">
                     <div class="card-block">
                         <p class="card-title">{{group.name}}</p>
                         <p class="card-title">{{group.role}}</p>

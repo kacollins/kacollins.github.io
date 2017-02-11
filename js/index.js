@@ -49,7 +49,22 @@ app.controller("meetupGroupsCtrl", function ($scope, $resource)
     loadJSON("meetup-groups", false, function (response)
     {
         // Parse JSON string into object
-        $scope.meetupGroups = JSON.parse(response);
+        var meetupGroups = JSON.parse(response);
+
+        meetupGroups.forEach(function (group)
+        {
+            group.organizerSortOrder = group.role.indexOf('Organizer');
+        });
+
+        $scope.organizerGroups = meetupGroups.filter(function (group)
+        {
+            return group.organizerSortOrder >= 0;
+        });
+
+        $scope.attendeeGroups = meetupGroups.filter(function (group)
+        {
+            return group.organizerSortOrder < 0;
+        });
     });
 });
 
