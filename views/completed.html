@@ -3,12 +3,12 @@
         <h1>Completed Courses</h1>
     </div>
     <div class="row">
-        <div class="card-deck">
+        <div class="card-deck" style="margin: 10px;">
             <a ng-href="{{course.url}}" class="text-center"
                ng-repeat="course in coursesCompleted">
-                <div class="card card-outline-secondary" style="min-width: 200px; max-width: 250px;">
+                <div class="card card-outline-secondary" style="min-height: 215px; width: 200px;">
                     <img class="card-img-top" ng-src="{{course.badge}}" alt="{{course.title}}"
-                         style="max-width: 100px; margin:0 auto;">
+                         style="max-width: 100px; margin:5px auto;">
                     <div class="card-block">
                         <p class="card-title">{{course.title}}</p>
                     </div>
