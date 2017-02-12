@@ -1,0 +1,17 @@
+<div ng-controller="meetupGroupsCtrl">
+    <div class="row" style="margin: 10px">
+        <div class="card-group">
+            <a ng-href="https://www.meetup.com/{{group.nameInMeetupURL}}" class="text-center"
+               ng-repeat="group in organizerGroups | orderBy: 'organizerSortOrder'">
+                <div class="card list-group-item list-group-item-action" style="width: 400px;"
+                     ng-class="{'list-group-item-success': group.role == 'Organizer', 'list-group-item-info': group.role == 'Co-Organizer'}">
+                    <img class="card-img-top" ng-src="{{group.image}}" style="height: 100px; margin: 5px">
+                    <div class="card-block">
+                        <p class="card-title">{{group.name}}</p>
+                        <p class="card-title">{{group.role}}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

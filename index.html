@@ -9,7 +9,9 @@
 <body ng-app="Portfolio">
 
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse" style="margin-bottom: 10px">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#/index.html"">Kimberly Collins</a>
@@ -18,7 +20,16 @@
         <ul class="navbar-nav mr-auto">
             <li><a class="nav-link" href="#/in-progress">Courses In Progress</a></li>
             <li><a class="nav-link" href="#/completed">Completed Courses</a></li>
-            <li><a class="nav-link" href="#/meetup-groups">Meetup Groups</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#/meetup-groups" id="navbarDropdownMenuLink"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Meetup Groups
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#/meetup-groups-volunteer">Volunteer</a>
+                    <a class="dropdown-item" href="#/meetup-groups-member">Member</a>
+                </div>
+            </li>
         </ul>
     </div>
 </nav>
@@ -33,5 +44,10 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/routes.js"></script>
+<script src="js/controllers/completed-courses.js"></script>
+<script src="js/controllers/in-progress-courses.js"></script>
+<script src="js/controllers/meetup-groups.js"></script>
+<script src="js/directives/meetup-groups-member.js"></script>
+<script src="js/directives/meetup-groups-volunteer.js"></script>
 </body>
 </html>

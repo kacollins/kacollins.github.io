@@ -1,0 +1,17 @@
+<div ng-controller="meetupGroupsCtrl">
+    <div class="row" style="margin: 10px">
+        <div class="card-group">
+            <a ng-href="https://www.meetup.com/{{group.nameInMeetupURL}}" class="text-center"
+               ng-repeat="group in attendeeGroups">
+                <div class="card list-group-item list-group-item-action" style="width: 400px;"
+                     ng-class="{'list-group-item-warning': group.role == 'Active Member'}">
+                    <img class="card-img-top" ng-src="{{group.image}}" style="height: 100px; margin: 5px">
+                    <div class="card-block">
+                        <p class="card-title">{{group.name}}</p>
+                        <p class="card-title">{{group.role}}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
