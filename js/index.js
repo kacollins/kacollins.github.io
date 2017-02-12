@@ -1,6 +1,6 @@
 var app = angular.module("Portfolio", ["ngResource", "ngRoute"]);
 
-app.controller("mainCtrl", function ($scope, $resource)
+app.controller("mainCtrl", function ()
 {
     console.log("mainCtrl");
 });
@@ -29,19 +29,6 @@ app.controller("inProgressCtrl", function ($scope, $resource)
 
     CodeSchoolAPI.get({}, function (data)
     {
-        var coursesInProgress = data.courses.in_progress
-            .map(function (course)
-            {
-                return course.url;
-            });
-
-        $scope.levelsCompleted = data.badges
-            .filter(function (badge)
-            {
-                return badge.name.indexOf("Level") >= 0
-                    && coursesInProgress.indexOf(badge.course_url) >= 0;
-            });
-
         var coursesInProgressWithLevelsCompleted = data.courses.in_progress;
 
         coursesInProgressWithLevelsCompleted.forEach(function (course)
@@ -65,7 +52,7 @@ app.controller("inProgressCtrl", function ($scope, $resource)
     });
 });
 
-app.controller("meetupGroupsCtrl", function ($scope, $resource)
+app.controller("meetupGroupsCtrl", function ($scope)
 {
     loadJSON("meetup-groups", false, function (response)
     {
