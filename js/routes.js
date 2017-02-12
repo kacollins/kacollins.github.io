@@ -10,6 +10,9 @@ angular.module('Portfolio').config(function ($routeProvider)
         .when("/in-progress", {
             templateUrl: "views/in-progress.html"
         })
+        .when("/meetup-events", {
+            templateUrl: "views/meetup-events.html"
+        })
         .when("/meetup-groups", {
             templateUrl: "views/meetup-groups.html"
         })
