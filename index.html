@@ -8,29 +8,38 @@
 
 <body ng-app="Portfolio">
 
-<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse" style="margin-bottom: 10px">
+<nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse" style="margin-bottom: 10px">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#/index.html"">Kimberly Collins</a>
+    <a class="navbar-brand" href="#/index.html">Kimberly Collins</a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li><a class="nav-link" href="#/in-progress">Courses In Progress</a></li>
             <li><a class="nav-link" href="#/completed">Completed Courses</a></li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#/meetup-groups" id="navbarDropdownMenuLink"
+                <a class="nav-link dropdown-toggle" href="#/meetup-groups" id="meetupGroupsMenuLink"
                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Meetup Groups
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <div class="dropdown-menu" aria-labelledby="meetupGroupsMenuLink">
                     <a class="dropdown-item" href="#/meetup-groups-volunteer">Volunteer</a>
                     <a class="dropdown-item" href="#/meetup-groups-member">Member</a>
                 </div>
             </li>
-            <li><a class="nav-link" href="#/meetup-events">Meetup Events</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#/meetup-events" id="meetupEventsMenuLink"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Meetup Events
+                </a>
+                <div class="dropdown-menu" aria-labelledby="meetupEventsMenuLink">
+                    <a class="dropdown-item" href="#/meetup-events-past">Past</a>
+                    <a class="dropdown-item" href="#/meetup-events-upcoming">Upcoming</a>
+                </div>
+            </li>
         </ul>
     </div>
 </nav>
@@ -49,6 +58,8 @@
 <script src="js/controllers/in-progress-courses.js"></script>
 <script src="js/controllers/meetup-events.js"></script>
 <script src="js/controllers/meetup-groups.js"></script>
+<script src="js/directives/meetup-events-past.js"></script>
+<script src="js/directives/meetup-events-upcoming.js"></script>
 <script src="js/directives/meetup-groups-member.js"></script>
 <script src="js/directives/meetup-groups-volunteer.js"></script>
 </body>

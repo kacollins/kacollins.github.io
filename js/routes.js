@@ -13,6 +13,12 @@ angular.module('Portfolio').config(function ($routeProvider)
         .when("/meetup-events", {
             templateUrl: "views/meetup-events.html"
         })
+        .when("/meetup-events-past", {
+            templateUrl: "views/meetup-events-past.html"
+        })
+        .when("/meetup-events-upcoming", {
+            templateUrl: "views/meetup-events-upcoming.html"
+        })
         .when("/meetup-groups", {
             templateUrl: "views/meetup-groups.html"
         })
