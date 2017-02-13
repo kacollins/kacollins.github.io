@@ -18,28 +18,9 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li><a class="nav-link" href="#/in-progress">Courses In Progress</a></li>
-            <li><a class="nav-link" href="#/completed">Completed Courses</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#/meetup-groups" id="meetupGroupsMenuLink"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Meetup Groups
-                </a>
-                <div class="dropdown-menu" aria-labelledby="meetupGroupsMenuLink">
-                    <a class="dropdown-item" href="#/meetup-groups-volunteer">Volunteer</a>
-                    <a class="dropdown-item" href="#/meetup-groups-member">Member</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#/meetup-events" id="meetupEventsMenuLink"
-                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Meetup Events
-                </a>
-                <div class="dropdown-menu" aria-labelledby="meetupEventsMenuLink">
-                    <a class="dropdown-item" href="#/meetup-events-past">Past</a>
-                    <a class="dropdown-item" href="#/meetup-events-upcoming">Upcoming</a>
-                </div>
-            </li>
+            <li><a class="nav-link" href="#/code-school">Code School Courses</a></li>
+            <li><a class="nav-link" href="#/meetup-groups">Meetup Groups</a></li>
+            <li><a class="nav-link" href="#/meetup-events">Meetup Events</a></li>
         </ul>
     </div>
 </nav>
@@ -54,10 +35,14 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/routes.js"></script>
-<script src="js/controllers/completed-courses.js"></script>
-<script src="js/controllers/in-progress-courses.js"></script>
+
+<script src="js/controllers/courses-completed.js"></script>
+<script src="js/controllers/courses-in-progress.js"></script>
 <script src="js/controllers/meetup-events.js"></script>
 <script src="js/controllers/meetup-groups.js"></script>
+
+<script src="js/directives/courses-completed.js"></script>
+<script src="js/directives/courses-in-progress.js"></script>
 <script src="js/directives/meetup-events-past.js"></script>
 <script src="js/directives/meetup-events-upcoming.js"></script>
 <script src="js/directives/meetup-groups-member.js"></script>

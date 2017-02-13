@@ -4,11 +4,14 @@ angular.module('Portfolio').config(function ($routeProvider)
         .when('/', {
             templateUrl: 'views/main.html'
         })
-        .when("/completed", {
-            templateUrl: "views/completed.html"
+        .when("/code-school", {
+            templateUrl: "views/code-school.html"
         })
-        .when("/in-progress", {
-            templateUrl: "views/in-progress.html"
+        .when("/courses-completed", {
+            templateUrl: "views/courses-completed.html"
+        })
+        .when("/courses-in-progress", {
+            templateUrl: "views/courses-in-progress.html"
         })
         .when("/meetup-events", {
             templateUrl: "views/meetup-events.html"

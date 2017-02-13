@@ -1,7 +1,4 @@
-<div class="container" ng-controller="inProgressCtrl">
-    <div class="row">
-        <h1>Courses In Progress</h1>
-    </div>
+<div ng-controller="coursesInProgressCtrl">
     <div class="row" ng-repeat="course in coursesInProgressWithLevelsCompleted">
         <div class="card col-sm-6 list-group-item-action" style="max-width:300px;">
             <a ng-href="{{course.url}}" class="text-center">

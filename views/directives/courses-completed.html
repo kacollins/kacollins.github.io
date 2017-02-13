@@ -1,0 +1,14 @@
+<div class="row" ng-controller="coursesCompletedCtrl">
+    <div class="card-deck" style="margin: 10px;">
+        <a ng-href="{{course.url}}" class="text-center"
+           ng-repeat="course in coursesCompleted">
+            <div class="card list-group-item-action" style="min-height: 215px; width: 200px;">
+                <img class="card-img-top" ng-src="{{course.badge}}" alt="{{course.title}}"
+                     style="max-width: 100px; margin:10px auto 0 auto;">
+                <div class="card-block">
+                    <p class="card-title">{{course.title}}</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
