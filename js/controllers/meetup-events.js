@@ -5,7 +5,6 @@ app.controller("meetupEventsCtrl", function ($scope, $http)
     $http.jsonp(urlForPastMeetups + "&callback=JSON_CALLBACK")
         .success(function (data)
         {
-            console.log(data.results);
             $scope.pastMeetups = data.results;
         });
 

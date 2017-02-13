@@ -1,6 +1,5 @@
 app.controller("coursesInProgressCtrl", function ($scope, $resource)
 {
-    console.log("coursesInProgressCtrl");
     var url = "https://www.codeschool.com/users/kacollins.json";
 
     var CodeSchoolAPI = $resource(url,
