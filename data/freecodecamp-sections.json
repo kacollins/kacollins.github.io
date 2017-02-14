@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTML5 and CSS",
+    "status": "Completed"
+  },
+  {
+    "name": "Responsive Design with Bootstrap",
+    "status": "Completed"
+  },
+  {
+    "name": "jQuery",
+    "status": "Completed"
+  },
+  {
+    "name": "Basic JavaScript",
+    "status": "Completed"
+  },
+  {
+    "name": "Object Oriented and Functional Programming",
+    "status": "Completed"
+  },
+  {
+    "name": "Basic Algorithm Scripting",
+    "status": "Completed"
+  },
+  {
+    "name": "JSON APIs and Ajax",
+    "status": "Completed"
+  },
+  {
+    "name": "Intermediate Algorithm Scripting",
+    "status": "Completed"
+  },
+  {
+    "name": "Advanced Algorithm Scripting",
+    "status": "In Progress"
+  }
+]

@@ -16,6 +16,9 @@ angular.module('Portfolio').config(function ($routeProvider)
         .when("/courses-in-progress", {
             templateUrl: "views/courses-in-progress.html"
         })
+        .when("/freecodecamp-sections", {
+            templateUrl: "views/freecodecamp-sections.html"
+        })
         .when("/github-repos", {
             templateUrl: "views/github-repos.html"
         })
