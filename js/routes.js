@@ -4,6 +4,9 @@ angular.module('Portfolio').config(function ($routeProvider)
         .when('/', {
             templateUrl: 'views/main.html'
         })
+        .when("/codecademy-courses", {
+            templateUrl: "views/codecademy-courses.html"
+        })
         .when("/code-school", {
             templateUrl: "views/code-school.html"
         })

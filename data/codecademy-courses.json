@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Learn AngularJS 1.X ",
+    "url": "https://www.codecademy.com/learn/learn-angularjs",
+    "image": "https://raw.githubusercontent.com/angular/angular.js/master/images/logo/AngularJS-Shield.exports/AngularJS-Shield-medium.png",
+    "status": "Completed"
+  },
+  {
+    "name": "Learn Git",
+    "url": "https://www.codecademy.com/learn/learn-git",
+    "image": "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png",
+    "status": "Completed"
+  }
+]

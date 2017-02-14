@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <h1>Codecademy Courses</h1>
+    </div>
+    <div class="row" ng-controller="codecademyCoursesCtrl">
+        <div class="card-deck">
+            <a ng-href="{{course.url}}" class="text-center"
+               ng-repeat="course in codecademyCourses">
+                <div class="card list-group-item-action" style="width: 200px;">
+                    <img class="card-img-top" ng-src="{{course.image}}" alt="{{course.name}}"
+                         style="height: 100px; margin: 10px auto 0 auto;">
+                    <div class="card-block">
+                        <p class="card-title">{{course.name}}</p>
+                        <p class="card-title">{{course.status}}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
