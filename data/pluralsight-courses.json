@@ -1,0 +1,92 @@
+[
+  {
+    "name": "AngularJS Services In-depth",
+    "url": "https://app.pluralsight.com/library/courses/angularjs-services-in-depth",
+    "status": "In Progress"
+  },
+  {
+    "name": "Angular Routing In-depth",
+    "url": "https://app.pluralsight.com/library/courses/angular-routing-in-depth",
+    "status": "Completed"
+  },
+  {
+    "name": "Angular Fundamentals",
+    "url": "https://app.pluralsight.com/library/courses/angularjs-fundamentals",
+    "status": "Completed"
+  },
+  {
+    "name": "NPM Playbook",
+    "url": "https://app.pluralsight.com/library/courses/npm-playbook",
+    "status": "Completed"
+  },
+  {
+    "name": "Introduction to Node.js",
+    "url": "https://app.pluralsight.com/library/courses/node-intro",
+    "status": "Completed"
+  },
+  {
+    "name": "Git Fundamentals",
+    "url": "https://app.pluralsight.com/library/courses/git-fundamentals",
+    "status": "In Progress"
+  },
+  {
+    "name": "Scrum Development with Jira & JIRA Agile",
+    "url": "https://app.pluralsight.com/library/courses/scrum-development-jira-agile",
+    "status": "Completed"
+  },
+  {
+    "name": "Exploring C# 6.0 with Jon Skeet",
+    "url": "https://app.pluralsight.com/library/courses/csharp-with-jon-skeet",
+    "status": "Completed"
+  },
+  {
+    "name": "C# Extension Methods",
+    "url": "https://app.pluralsight.com/library/courses/csharp-extension-methods",
+    "status": "Completed"
+  },
+  {
+    "name": "LINQ Data Access",
+    "url": "https://app.pluralsight.com/library/courses/linq-data-access",
+    "status": "Completed"
+  },
+  {
+    "name": "LINQ Fundamentals",
+    "url": "https://app.pluralsight.com/library/courses/linq-fundamentals",
+    "status": "Completed"
+  },
+  {
+    "name": "Practical LINQ",
+    "url": "https://app.pluralsight.com/library/courses/practical-linq",
+    "status": "Completed"
+  },
+  {
+    "name": "SQL Server Fundamentals",
+    "url": "https://app.pluralsight.com/library/courses/sql-server-fundamentals",
+    "status": "Completed"
+  },
+  {
+    "name": "SQL Server Performance: Introduction to Query Tuning",
+    "url": "https://app.pluralsight.com/library/courses/query-tuning-introduction",
+    "status": "Completed"
+  },
+  {
+    "name": "Introduction to Dates and Times in SQL Server",
+    "url": "https://app.pluralsight.com/library/courses/intro-dates-times-sqlserver",
+    "status": "Completed"
+  },
+  {
+    "name": "Introduction to Data Warehousing and Business Intelligence",
+    "url": "https://app.pluralsight.com/library/courses/intro-dwbi-course",
+    "status": "Completed"
+  },
+  {
+    "name": "Play by Play: Database Tuning",
+    "url": "https://app.pluralsight.com/library/courses/play-by-play-rob-sullivan",
+    "status": "Completed"
+  },
+  {
+    "name": "SQL Server: Transact-SQL Common Table Expressions",
+    "url": "https://app.pluralsight.com/library/courses/sqlserver-transact-sql-common-table-expressions",
+    "status": "Completed"
+  }
+]

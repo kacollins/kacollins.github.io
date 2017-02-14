@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <h1>Pluralsight Courses</h1>
+    </div>
+    <div class="row list-group" ng-controller="pluralsightCoursesCtrl" style="max-width: 600px; margin-bottom: 10px;">
+        <a ng-href="{{course.url}}" class="list-group-item list-group-item-action"
+           ng-repeat="course in pluralsightCourses">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{course.name}}</h5>
+                <small>{{course.status}}</small>
+            </div>
+        </a>
+    </div>
+</div>
