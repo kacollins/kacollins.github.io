@@ -1,0 +1,11 @@
+<div class="list-group" ng-controller="githubReposForksCtrl">
+    <a ng-href="{{repo.html_url}}" class="list-group-item list-group-item-action"
+       ng-repeat="repo in forks | orderBy: '-pushed_at' | limitTo: 6">
+        <ul class="list-unstyled">
+            <li><h5>{{repo.name}}</h5></li>
+            <li>
+                <small>{{repo.description}}</small>
+            </li>
+        </ul>
+    </a>
+</div>

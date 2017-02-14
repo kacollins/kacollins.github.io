@@ -13,6 +13,18 @@ angular.module('Portfolio').config(function ($routeProvider)
         .when("/courses-in-progress", {
             templateUrl: "views/courses-in-progress.html"
         })
+        .when("/github-repos", {
+            templateUrl: "views/github-repos.html"
+        })
+        .when("/github-repos-websites", {
+            templateUrl: "views/github-repos-websites.html"
+        })
+        .when("/github-repos-apps", {
+            templateUrl: "views/github-repos-apps.html"
+        })
+        .when("/github-repos-forks", {
+            templateUrl: "views/github-repos-forks.html"
+        })
         .when("/meetup-events", {
             templateUrl: "views/meetup-events.html"
         })
