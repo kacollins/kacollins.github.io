@@ -1,0 +1,76 @@
+<div class="container-fluid">
+    <h1>Online Courses</h1>
+    <div class="row" style="width: auto">
+        <ul class="list-group" style="margin: 10px;">
+            <li class="list-group-item list-group-item-action">
+                <ul class="list-unstyled">
+                    <li><a href="https://www.codeschool.com/"><h5>Code School</h5></a></li>
+                    <li>
+                        <a href="#/courses-completed" ng-controller="coursesCompletedCtrl">
+                            <span class="badge badge-success">{{coursesCompletedCount}}</span>
+                            Course<span ng-show="coursesCompletedCount != 1">s</span> Completed
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/courses-in-progress" ng-controller="coursesInProgressCtrl">
+                            <span class="badge badge-warning">{{coursesInProgressCount}}</span>
+                            Course<span ng-show="coursesInProgressCount != 1">s</span> In Progress
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class=" list-group-item list-group-item-action">
+                <ul class="list-unstyled" ng-controller="codecademyCoursesCtrl">
+                    <li><a href="https://www.codecademy.com/"><h5>Codecademy</h5></a></li>
+                    <li>
+                        <a href="#/codecademy-courses">
+                            <span class="badge badge-success">{{coursesCompletedCount}}</span>
+                            Course<span ng-show="coursesCompletedCount != 1">s</span> Completed
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/codecademy-courses">
+                            <span class="badge badge-warning">{{coursesInProgressCount}}</span> Course<span
+                                ng-show="coursesInProgressCount != 1">s</span>
+                            In Progress
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item list-group-item-action">
+                <ul class="list-unstyled" ng-controller="freecodecampSectionsCtrl">
+                    <li><a href="https://www.freecodecamp.com/"><h5>Free Code Camp</h5></a></li>
+                    <li>
+                        <a href="#/freecodecamp-sections">
+                            <span class="badge badge-success">{{sectionsCompletedCount}}</span>
+                            Section<span ng-show="sectionsCompletedCount != 1">s</span> Completed
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/freecodecamp-sections">
+                            <span class="badge badge-warning">{{sectionsInProgressCount}}</span>
+                            Section<span ng-show="sectionsInProgressCount != 1">s</span> In Progress
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="list-group-item list-group-item-action">
+                <ul class="list-unstyled" ng-controller="pluralsightCoursesCtrl">
+                    <li><a href="https://www.pluralsight.com/"><h5>Pluralsight</h5></a></li>
+                    <li>
+                        <a href="#/pluralsight-courses">
+                            <span class="badge badge-success">{{coursesCompletedCount}}</span>
+                            Course<span ng-show="coursesCompletedCount != 1">s</span> Completed
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/pluralsight-courses">
+                            <span class="badge badge-warning">{{coursesInProgressCount}}</span>
+                            Course<span ng-show="coursesInProgressCount != 1">s</span> In Progress
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

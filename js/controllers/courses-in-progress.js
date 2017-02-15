@@ -28,5 +28,7 @@ app.controller("coursesInProgressCtrl", function ($scope, $resource)
         {
             return course.levelsCompleted.length > 0;
         });
+
+        $scope.coursesInProgressCount = $scope.coursesInProgressWithLevelsCompleted.length;
     });
 });

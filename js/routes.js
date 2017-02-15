@@ -10,6 +10,9 @@ angular.module('Portfolio').config(function ($routeProvider)
         .when("/code-school", {
             templateUrl: "views/code-school.html"
         })
+        .when("/courses", {
+            templateUrl: "views/courses.html"
+        })
         .when("/courses-completed", {
             templateUrl: "views/courses-completed.html"
         })

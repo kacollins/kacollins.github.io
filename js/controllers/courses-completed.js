@@ -9,5 +9,6 @@ app.controller("coursesCompletedCtrl", function ($scope, $resource)
     CodeSchoolAPI.get({}, function (data)
     {
         $scope.coursesCompleted = data.courses.completed;
+        $scope.coursesCompletedCount = $scope.coursesCompleted.length;
     });
 });
