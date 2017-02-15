@@ -9,5 +9,7 @@ app.controller("meetupGroupsMemberCtrl", function ($scope)
         {
             return group.role.indexOf('Organizer') < 0;
         });
+
+        $scope.groupCount = $scope.memberGroups.length;
     });
 });

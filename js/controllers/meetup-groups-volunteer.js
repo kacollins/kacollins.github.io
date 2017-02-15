@@ -14,5 +14,7 @@ app.controller("meetupGroupsVolunteerCtrl", function ($scope)
         {
             return group.volunteerSortOrder >= 0;
         });
+
+        $scope.groupCount = $scope.volunteerGroups.length;
     });
 });

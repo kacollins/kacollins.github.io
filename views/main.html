@@ -2,10 +2,26 @@
     <div class="row" style="margin-left: 5px;">
         <div class="list-group col-lg-3" style="margin-bottom: 10px;">
             <a class="list-group-item list-group-item-info" href="#/courses">Online Courses</a>
-            <a class="list-group-item list-group-item-action" href="#/code-school">Code School</a>
-            <a class="list-group-item list-group-item-action" href="#/codecademy-courses">Codecademy</a>
-            <a class="list-group-item list-group-item-action" href="#/freecodecamp-sections">freeCodeCamp</a>
-            <a class="list-group-item list-group-item-action" href="#/pluralsight-courses">Pluralsight</a>
+            <a class="list-group-item list-group-item-action justify-content-between"
+               href="#/code-school" ng-controller="coursesCompletedCtrl">
+                Code School
+                <span class="badge badge-default badge-pill">{{coursesCompletedCount}} courses completed</span>
+            </a>
+            <a class="list-group-item list-group-item-action justify-content-between"
+               href="#/codecademy-courses" ng-controller="codecademyCoursesCtrl">
+                Codecademy
+                <span class="badge badge-default badge-pill">{{coursesCompletedCount}} courses completed</span>
+            </a>
+            <a class="list-group-item list-group-item-action justify-content-between"
+               href="#/freecodecamp-sections" ng-controller="freecodecampSectionsCtrl">
+                freeCodeCamp
+                <span class="badge badge-default badge-pill">{{sectionsCompletedCount}} sections completed</span>
+            </a>
+            <a class="list-group-item list-group-item-action justify-content-between"
+               href="#/pluralsight-courses" ng-controller="pluralsightCoursesCtrl">
+                Pluralsight
+                <span class="badge badge-default badge-pill">{{coursesCompletedCount}} courses completed</span>
+            </a>
         </div>
         <div class="list-group col-lg-3" style="margin-bottom: 10px;">
             <a class="list-group-item list-group-item-info" href="#/github-repos">GitHub Repos</a>
@@ -15,8 +31,16 @@
         </div>
         <div class="list-group col-lg-3" style="margin-bottom: 10px;">
             <a class="list-group-item list-group-item-info" href="#/meetup-groups">Meetup Groups</a>
-            <a class="list-group-item list-group-item-action" href="#/meetup-groups-volunteer">Volunteer</a>
-            <a class="list-group-item list-group-item-action" href="#/meetup-groups-member">Member</a>
+            <a class="list-group-item list-group-item-action justify-content-between"
+               href="#/meetup-groups-volunteer" ng-controller="meetupGroupsVolunteerCtrl">
+                Volunteer
+                <span class="badge badge-default badge-pill">{{groupCount}} groups</span>
+            </a>
+            <a class="list-group-item list-group-item-action justify-content-between"
+               href="#/meetup-groups-member" ng-controller="meetupGroupsMemberCtrl">
+                Member
+                <span class="badge badge-default badge-pill">{{groupCount}} groups</span>
+            </a>
         </div>
         <div class="list-group col-lg-3" style="margin-bottom: 10px;">
             <a class="list-group-item list-group-item-info" href="#/meetup-events">Meetup Events</a>
