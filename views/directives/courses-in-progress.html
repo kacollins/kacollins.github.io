@@ -1,23 +1,26 @@
 <div ng-controller="coursesInProgressCtrl">
-    <div class="row" ng-repeat="course in coursesInProgressWithLevelsCompleted">
-        <div class="card col-sm-6 list-group-item-action" style="max-width:300px;">
+    <div class="row"
+         ng-repeat="course in coursesInProgressWithLevelsCompleted">
+        <div class="card col-sm-6 list-group-item-action" style="max-width: 200px;">
             <a ng-href="{{course.url}}" class="text-center">
                 <img class="card-img-top" ng-src="{{course.badge}}" alt="{{course.title}}"
-                     style="max-height: 200px; max-width: 200px;">
+                     style="max-height: 100px; max-width: 100px; margin-top: 10px;">
                 <div class="card-block">
                     <p class="card-title">{{course.title}}</p>
                 </div>
             </a>
         </div>
         <div class="card-group col-sm-6">
-            <div class="card list-group-item text-center" style="max-height: 200px; max-width: 150px;"
-                 ng-repeat="badge in course.levelsCompleted | orderBy: 'name'">
-                <img class="card-img-top" ng-src="{{badge.badge}}" alt="{{badge.name}}"
-                     style="max-height: 75px; max-width: 75px; margin:0 auto;">
-                <div class="card-block">
-                    <p>{{badge.level}}</p>
+            <a ng-href="{{badge.badge_url}}" class="text-center"
+               ng-repeat="badge in course.levelsCompleted | orderBy: 'name'">
+                <div class="card list-group-item-action" style="max-height: 150px; max-width: 150px;">
+                    <img class="card-img-top" ng-src="{{badge.badge}}" alt="{{badge.name}}"
+                         style="max-height: 75px; max-width: 75px; margin: 10px;">
+                    <div class="card-block">
+                        {{badge.level}}
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </div>

@@ -10,6 +10,8 @@ app.controller("coursesInProgressCtrl", function ($scope, $resource)
     {
         var coursesInProgressWithLevelsCompleted = data.courses.in_progress;
 
+        var regex = /large_badge\/(\d+)\//;
+
         coursesInProgressWithLevelsCompleted.forEach(function (course)
         {
             course.levelsCompleted = data.badges
@@ -21,6 +23,13 @@ app.controller("coursesInProgressCtrl", function ($scope, $resource)
 
             course.levelsCompleted.forEach(function(badge){
                 badge.level = badge.name.replace(" on " + course.title, "");
+
+                var match = regex.exec(badge.badge);
+
+                if (match)
+                {
+                    badge.badge_url = 'https://www.codeschool.com/users/kacollins/badges/' + match[1];
+                }
             });
         });
 
