@@ -55,5 +55,8 @@ angular.module('Portfolio').config(function ($routeProvider)
         .when("/pluralsight-courses", {
             templateUrl: "views/pluralsight-courses.html"
         })
+        .when("/skills", {
+            templateUrl: "views/skills.html"
+        })
         .otherwise({redirectTo: '/'});
 });

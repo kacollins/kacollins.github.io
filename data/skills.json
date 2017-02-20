@@ -1,0 +1,82 @@
+[
+  {
+    "name": "C#",
+    "category": "6-10"
+  },
+  {
+    "name": "LINQ",
+    "category": "6-10"
+  },
+  {
+    "name": "Regular Expressions",
+    "category": "6-10"
+  },
+  {
+    "name": "SQL Server",
+    "category": "6-10"
+  },
+  {
+    "name": "SSRS",
+    "category": "6-10"
+  },
+  {
+    "name": "TFS",
+    "category": "6-10"
+  },
+  {
+    "name": "VB.NET",
+    "category": "6-10"
+  },
+  {
+    "name": "XML",
+    "category": "6-10"
+  },
+  {
+    "name": "Entity Framework",
+    "category": "3-5"
+  },
+  {
+    "name": "Jira",
+    "category": "3-5"
+  },
+  {
+    "name": "WebForms",
+    "category": "3-5"
+  },
+  {
+    "name": "WinForms",
+    "category": "3-5"
+  },
+  {
+    "name": "WPF",
+    "category": "3-5"
+  },
+  {
+    "name": "XAML",
+    "category": "3-5"
+  },
+  {
+    "name": "Angular",
+    "category": "< 1"
+  },
+  {
+    "name": "Bootstrap",
+    "category": "< 1"
+  },
+  {
+    "name": "Git",
+    "category": "< 1"
+  },
+  {
+    "name": "jQuery",
+    "category": "< 1"
+  },
+  {
+    "name": "MVC",
+    "category": "< 1"
+  },
+  {
+    "name": "SSIS",
+    "category": "< 1"
+  }
+]
