@@ -8,7 +8,7 @@
     "name": "Code for OKC",
     "nameInMeetupURL": "Code-for-OKC",
     "role": "Attendee",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/Code-for-OKC/Logo_400x400.jpeg?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/Code-for-OKC/Logo_400x400.jpeg?raw=true"
   },
   {
     "name": "Code Norman",
@@ -23,15 +23,15 @@
   },
   {
     "name": "Free Code Camp OKC",
-    "nameInMeetupURL": "FCC-OKC",
-    "role": "Active Member",
-	"image": "https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-04/136470688097_fa25633d2275b24837a8_132.png"
+    "nameInMeetupURL": "FreeCodeCampOKC",
+    "role": "Co-Organizer",
+	"image": "https://secure.meetupstatic.com/photos/event/5/5/9/f/600_460401919.jpeg"
   },
   {
     "name": "Nerdy Girls codeClub",
     "nameInMeetupURL": "NerdyGirlsOKC",
     "role": "Co-Organizer",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/Nerdy-Girls-OKC/Logo_300x300.jpeg?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/Nerdy-Girls-OKC/Logo_300x300.jpeg?raw=true"
   },
   {
     "name": "OKC ESL",
@@ -42,25 +42,25 @@
     "name": "OKC FP",
     "nameInMeetupURL": "OKC-FP",
     "role": "Attendee",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-FP/logo_575x575.jpg?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/OKC-FP/logo_575x575.jpg?raw=true"
   },
   {
     "name": "OKC.js",
     "nameInMeetupURL": "OKC-JS",
     "role": "Active Member",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-JS/Logo_750x580.png?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/OKC-JS/Logo_750x580.png?raw=true"
   },
   {
     "name": "OKC JUG",
     "nameInMeetupURL": "okcjug",
     "role": "Attendee",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-JUG/okcjug_270x270.png?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/OKC-JUG/okcjug_270x270.png?raw=true"
   },
   {
     "name": "OKC MySQL",
     "nameInMeetupURL": "Oklahoma-City-MySQL-Meetup",
     "role": "Attendee",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-MySql/Logo_180x96.jpeg?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/OKC-MySql/Logo_180x96.jpeg?raw=true"
   },
   {
     "name": "OKC Open Source Hardware",
@@ -72,35 +72,30 @@
     "name": "OKC Python",
     "nameInMeetupURL": "Oklahoma-City-Python-Users-Group",
     "role": "Attendee",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-Python/Logo_300x300.png?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/OKC-Python/Logo_300x300.png?raw=true"
   },
   {
     "name": "OKC Ruby",
     "nameInMeetupURL": "OKC-Ruby",
     "role": "Attendee",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-Ruby/Logo_259x224.png?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/OKC-Ruby/Logo_259x224.png?raw=true"
   },
   {
     "name": "OKC#",
     "nameInMeetupURL": "OKC-Sharp",
     "role": "Event Organizer",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-Sharp/Logo_528x298.jpeg?raw=true"
-  },
-  {
-    "name": "OKC Smart Home Automation",
-    "nameInMeetupURL": "OKC-Smart-Home-Automation-Meetup",
-    "role": "Organizer"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/OKC-Sharp/Logo_528x298.jpeg?raw=true"
   },
   {
     "name": "OKC SQL",
     "nameInMeetupURL": "OKCSQL",
     "role": "Active Member",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/OKC-SQL/Logo_270x270.png?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/OKC-SQL/Logo_270x270.png?raw=true"
   },
   {
     "name": "Refresh OKC",
     "nameInMeetupURL": "Refresh-OKC",
     "role": "Active Member",
-	"image": "https://github.com/techlahoma/user-groups/blob/master/Refresh-OKC/Logo_1307x668.png?raw=true"
+	"image": "https://github.com/techlahoma/user-groups/blob/master/sponsored/Refresh-OKC/Logo_1307x668.png?raw=true"
   }
 ]
